@@ -6,3 +6,7 @@
  
   - name: Hello World!
     shell: echo "Hi! Tower is working."
+
+- name: Run command if /path/to/database does not exist (without 'args')
+  command: mc-beam -a restart -g DEV -p ttp-service
+ 
